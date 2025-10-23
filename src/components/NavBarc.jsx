@@ -10,6 +10,7 @@ const NavBarc = () => {
     { label: "About", path: "/about" },
     { label: "Capabilities", path: "/capabilities" },
     { label: "Contact", path: "/contact" },
+    { label: "Switch to Productions", path: "/production" },
   ];
 
   return (
