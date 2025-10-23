@@ -13,7 +13,7 @@ const NavBarc = () => {
   ];
 
   return (
-    <nav className="text-[#f0ecd9] bg-slate-700 sticky top-0 z-50 shadow-md border-2 m-2 mx-5 rounded-lg">
+    <nav className="text-[#f0ecd9] bg-[#1b1b1b] sticky top-0 z-50 shadow-md border-2 m-2 mx-5 rounded-lg">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-2 py-4 font-anton">
         {/* Logo */}
         <Link

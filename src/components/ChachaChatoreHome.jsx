@@ -2,15 +2,22 @@ import React from 'react'
 import NavBarc from './NavBarc'
 import HeroSection from './HeroSection'
 import AboutSection from './AboutSection'
-import Story from './Story'
-
+import StorySection from './StorySection'
+import FeaturedStories from './FeaturedStories'
+import CommunityCollaborations from './CommunityCollaborations'
+import CallToActionSection from './CallToActionSection'
+import Footer from './Footer'
 const ChachaChatoreHome = () => {
   return (
-    <div className='bg-slate-700  py-1'>
+    <div className='bg-[#1b1b1b]  py-1'>
       <NavBarc/>
       <HeroSection/>
-      <AboutSection/>3
-      <Story/>
+      <AboutSection/>
+      <StorySection/>
+      <FeaturedStories/>
+      <CommunityCollaborations/>
+      <CallToActionSection/>
+      <Footer/>
     </div>
   )
 }
