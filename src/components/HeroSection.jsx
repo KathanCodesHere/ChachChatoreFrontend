@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section
       ref={heroRef}
-      className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-slate-700 text-[#f0ecd9] px-6 md:px-12 overflow-hidden"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-[#1b1b1b] text-[#f0ecd9] px-6 md:px-12 overflow-hidden"
     >
       {/* Left: Content Section */}
       <motion.div
