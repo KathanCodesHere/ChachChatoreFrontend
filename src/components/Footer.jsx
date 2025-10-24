@@ -5,7 +5,7 @@ import { FaInstagram, FaYoutube, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1b1b1b] text-[#f0ecd9] py-12 px-6 md:px-16 border-t border-[#d93535]/30">
+    <footer className="bg-[#1b1b1b] text-[#f0ecd9] py-12 px-6 md:px-16 border-t border-[#e86b40]/30">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -17,25 +17,25 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center gap-6 text-lg font-open">
           <Link
             to="/"
-            className="hover:text-[#d93535] transition-colors duration-300"
+            className="hover:text-[#e86b40] transition-colors duration-300"
           >
             Home
           </Link>
           <Link
             to="/stories"
-            className="hover:text-[#d93535] transition-colors duration-300"
+            className="hover:text-[#e86b40] transition-colors duration-300"
           >
             Stories
           </Link>
           <Link
             to="/collaborations"
-            className="hover:text-[#d93535] transition-colors duration-300"
+            className="hover:text-[#e86b40] transition-colors duration-300"
           >
             Collaborations
           </Link>
           <Link
             to="/contact"
-            className="hover:text-[#d93535] transition-colors duration-300"
+            className="hover:text-[#e86b40] transition-colors duration-300"
           >
             Contact
           </Link>
@@ -49,7 +49,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
             transition={{ type: "spring", stiffness: 200 }}
-            className="hover:text-[#d93535] transition-colors"
+            className="hover:text-[#e86b40] transition-colors"
           >
             <FaInstagram />
           </motion.a>
@@ -59,7 +59,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
             transition={{ type: "spring", stiffness: 200 }}
-            className="hover:text-[#d93535] transition-colors"
+            className="hover:text-[#e86b40] transition-colors"
           >
             <FaYoutube />
           </motion.a>
@@ -67,7 +67,7 @@ const Footer = () => {
             href="mailto:chachachatore@gmail.com"
             whileHover={{ scale: 1.2 }}
             transition={{ type: "spring", stiffness: 200 }}
-            className="hover:text-[#d93535] transition-colors"
+            className="hover:text-[#e86b40] transition-colors"
           >
             <FaEnvelope />
           </motion.a>
@@ -80,7 +80,7 @@ const Footer = () => {
           transition={{ delay: 0.3, duration: 1 }}
           className="text-[#f0ecd9]/80 text-base md:text-lg italic font-open max-w-xl leading-relaxed"
         >
-          “Not just food — <span className="text-[#d93535]">kahaniyan</span> jo dil aur pet dono bhar dein.”
+          “Not just food — <span className="text-[#e86b40]">kahaniyan</span> jo dil aur pet dono bhar dein.”
         </motion.p>
 
         {/* Copyright */}

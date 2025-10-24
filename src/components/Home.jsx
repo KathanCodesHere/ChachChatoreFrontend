@@ -2,17 +2,15 @@ import HomeCards from "../components/HomeCards";
 
 const Home = () => {
   return (
-    <div className="bg-slate-800 min-h-screen">
-      <section className="text-center py-16">
-        <h1 className="text-5xl sm:text-6xl tracking-wide font-bold text-[#d93535] mb-4 uppercase font-anton">
+    <div className="bg-[#1b1b1b] min-h-screen flex flex-col">
+      {/* Heading Section */}
+      <section className="text-center py-10">
+        <h1 className="text-5xl sm:text-6xl tracking-wide font-bold text-[#e86b40] mb-2 uppercase font-anton">
           Chacha's World
         </h1>
-        <p className="text-[#f0ecd9] text-lg max-w-2xl mx-auto">
-          Discover the different sections of our site below.
-        </p>
       </section>
 
-      {/* 2 cards section */}
+      {/* Fullscreen Cards Section */}
       <HomeCards />
     </div>
   );
