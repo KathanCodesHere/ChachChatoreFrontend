@@ -12,7 +12,7 @@ const brands = [
 
 const CommunityCollaborations = () => {
   return (
-    <section className="bg-[#1b1b1b] text-[#f0ecd9] py-24 px-6 md:px-16 overflow-hidden">
+    <section className="bg-[#1b1b1b] text-[#f0ecd9] py-24 px-6 md:px-16 overflow-hidden" id='comm'>
       {/* Headline */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -21,7 +21,7 @@ const CommunityCollaborations = () => {
         viewport={{ once: true }}
         className="text-center mb-16"
       >
-        <h2 className="text-4xl md:text-5xl font-anton text-[#d93535] mb-4">
+        <h2 className="text-4xl md:text-5xl font-anton text-[#e86b40] mb-4">
            Where Stories Meet People
         </h2>
         <p className="text-lg md:text-xl font-open text-[#f0ecd9]/90 max-w-3xl mx-auto">
@@ -42,7 +42,7 @@ const CommunityCollaborations = () => {
             ease: "linear",
           }}
         >
-          {[...brands, ...brands].map((brand, index) => (
+          {[...brands, ...brands,...brands, ...brands].map((brand, index) => (
             <div
               key={index}
               className="w-24 h-24 md:w-28 md:h-28 flex-shrink-0 rounded-full bg-[#242424] flex items-center justify-center p-4 shadow-lg"
@@ -65,11 +65,11 @@ const CommunityCollaborations = () => {
         viewport={{ once: true }}
         className="mt-12 flex flex-wrap justify-center gap-6"
       >
-        <button className="bg-[#d93535] text-[#f0ecd9] px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#b72d2d] transition-all duration-300">
-          👉 Join a Food Walk
+        <button className="bg-[#e86b40] text-[#f0ecd9] px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#b72d2d] transition-all duration-300">
+          Join a Food Walk
         </button>
-        <button className="border-2 border-[#d93535] text-[#d93535] px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#d93535] hover:text-[#f0ecd9] transition-all duration-300">
-          👉 Partner with Me
+        <button className="border-2 border-[#e86b40] text-[#e86b40] px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e86b40] hover:text-[#f0ecd9] transition-all duration-300">
+          Partner with Me
         </button>
       </motion.div>
     </section>

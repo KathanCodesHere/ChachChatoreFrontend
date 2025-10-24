@@ -33,14 +33,14 @@ const StorySection = () => {
     <section className="relative bg-[#1b1b1b] text-[#f0ecd9] py-24 px-6 md:px-16 overflow-hidden">
       {/* Heading */}
       <div className="max-w-6xl mx-auto text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-anton text-[#d93535] mb-6">
-          📖 The Way I Tell Stories
+        <h2 className="text-4xl md:text-5xl font-anton text-[#e86b40] mb-6">
+          The Way I Tell Stories
         </h2>
       </div>
 
       {/* Vertical Line */}
       <div className="relative max-w-3xl mx-auto">
-        <div className="absolute left-1/2 top-0 transform -translate-x-1/2 w-[3px] bg-[#d93535]/60 h-full rounded-full shadow-[0_0_10px_#d93535]" />
+        <div className="absolute left-1/2 top-0 transform -translate-x-1/2 w-[3px] bg-[#e86b40]/60 h-full rounded-full shadow-[0_0_10px_#e86b40]" />
 
         {/* Story Points */}
         <div className="flex flex-col items-center space-y-20">
@@ -55,14 +55,14 @@ const StorySection = () => {
                 delay: index * 0.2,
               }}
               viewport={{ once: true, amount: 0.4 }}
-              className="relative flex flex-col items-center text-center w-full max-w-md"
+              className="relative flex flex-col items-center text-center w-full max-w-lg md:max-w-3xl"
             >
               {/* Connector Dot */}
-              <div className="w-5 h-5 rounded-full bg-[#d93535] border-2 border-[#f0ecd9] shadow-[0_0_10px_#d93535] mb-6" />
+              <div className="w-7 h-7 rounded-full bg-[#e86b40] border-2 border-[#f0ecd9] shadow-[0_0_10px_#e86b40] mb-8" />
 
               {/* Text */}
-              <div className="bg-[#242424] p-6 rounded-2xl shadow-lg w-full">
-                <h3 className="text-2xl md:text-3xl font-anton text-[#d93535] mb-3">
+              <div className="bg-[#242424] p-8 mb-4 rounded-2xl shadow-lg w-full">
+                <h3 className="text-2xl md:text-3xl font-anton text-[#e86b40] mb-3">
                   {point.title}
                 </h3>
                 <p className="text-base sm:text-lg font-open">{point.desc}</p>
@@ -72,7 +72,7 @@ const StorySection = () => {
               <motion.img
                 src={point.img}
                 alt={point.title}
-                className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover border-4 border-[#d93535] mt-6 shadow-[0_0_15px_#d93535]"
+                className="w-38 h-38 md:w-48 md:h-48 rounded-full object-cover border-4 border-[#e86b40] mt-6 shadow-[0_0_15px_#e86b40]"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
