@@ -26,10 +26,9 @@ const CursorGlow = () => {
 
 const ProductionHome = () => {
   return (
-    <>
+    <div className="bg-[#111] mt-[0.1px] pt-3">
       <CursorGlow />
       <NavBarP />
-
       {/* HERO SECTION */}
       <header className="relative min-h-[90vh] bg-[#111] flex flex-col justify-center items-center overflow-hidden text-[#f0ecd9]">
         {/* Floating icons for fun */}
@@ -212,7 +211,7 @@ const ProductionHome = () => {
           Get In Touch
         </motion.a>
       </motion.section>
-    </>
+    </div>
   );
 };
 
